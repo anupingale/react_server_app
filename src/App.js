@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 
 const showUser = function() {
-  fetch('/addUser')
+  fetch('/listen')
     .then(res => res.text())
     .then(text => alert(text));
 };
